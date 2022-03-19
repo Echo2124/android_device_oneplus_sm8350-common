@@ -418,6 +418,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.oplus
 
+# tri-state-key
+PRODUCT_PACKAGES += \
+    KeyHandler \
+    tri-state-key_daemon.vendor
+
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
