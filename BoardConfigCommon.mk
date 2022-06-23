@@ -86,8 +86,8 @@ DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_oplus
 
 #Remove packages
-PRODUCT_PACKAGES += \
-	RemovePackages
+#PRODUCT_PACKAGES += \
+#	RemovePackages
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 3
