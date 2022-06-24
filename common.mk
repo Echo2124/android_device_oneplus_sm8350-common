@@ -30,8 +30,11 @@ PRODUCT_PACKAGES += \
 
 # Alert slider
 PRODUCT_PACKAGES += \
-    tri-state-key-calibrate
+    tri-state-key_daemon.vendor
 
+# Device Extras
+PRODUCT_PACKAGES += \
+	DeviceExtras
 # APEX
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
@@ -326,10 +329,6 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
     android.hardware.power@1.2.vendor \
     vendor.qti.hardware.perf@2.2.vendor
-
-# PowerShare
-PRODUCT_PACKAGES += \
-    vendor.lineage.powershare@1.0-service.oplus
 
 # QMI
 PRODUCT_PACKAGES += \
